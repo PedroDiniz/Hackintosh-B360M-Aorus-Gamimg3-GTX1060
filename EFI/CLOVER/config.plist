@@ -226,8 +226,14 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
-		<key>EmbeddedThemeType</key>
-		<string>Dark</string>
+		<key>Hide</key>
+		<array>
+			<string>Preboot</string>
+			<string>Recovery</string>
+			<string>VM</string>
+			<string>Storage</string>
+			<string>Reservado pelo Sistema</string>
+		</array>
 		<key>KbdPrevLang</key>
 		<true/>
 		<key>Mouse</key>
@@ -241,6 +247,8 @@
 			<key>Speed</key>
 			<integer>8</integer>
 		</dict>
+		<key>Theme</key>
+		<string>clover-theme-minimal</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
